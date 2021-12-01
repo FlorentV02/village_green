@@ -1,32 +1,29 @@
 Liste des données 
 
-	Fournisseur (constructeur, importateur)
-	Catégorie
-	Sous catégorie
-	Stock
-	Libellé court 
-	Libellé Long, Description
-	Référence fournisseur
-	Prix d’achat 
-	Photo
-	Catalogue de produit
-	Produit actif à la vente ou non
-	Prix de vente HTT
-	Commercial 
-	Clients particuliers
-	Clients professionnels
-	Paiement 
-	Noté le paiement en différé ou non
-	Facture
-	Commande
-	Référence Client
-	Réduction prix 
+    • Fournisseur (constructeur, importateur)
+    • Catégorie
+    • Sous catégorie
+    • Stock
+    • Libellé court 
+    • Libellé Long, Description
+    • Référence fournisseur
+    • Prix d’achat 
+    • Photo
+    • Catalogue de produit
+    • Produit actif à la vente ou non
+    • Prix de vente HTT
+    • Commercial 
+    • Clients particuliers
+    • Clients professionnels
+    • Paiement 
+    • Noté le paiement en différé ou non
+    • Facture
+    • Commande
+    • Référence Client
+    • Réduction prix 
 
 Table
-
 	 
-
-
 	Client 
 
     • Nom (VARCHAR 25 NOT NUL)
@@ -91,18 +88,18 @@ Table
 
 
 
-Lien de «Produit » à « Catégorie »
-Lien de « Produit » à « Sous-Catégorie » 
-Lien de « Produit » à « Commande » 
-Lien de « Produit » à « Fournisseur »
-Lien de « Produit » à « Commande »
-Lien de « Produit » à « Client »
-Lien de « Commercial » à « Client »
-
+    • Lien de «Produit » à « Catégorie »
+    • Lien de « Produit » à « Sous-Catégorie » 
+    • Lien de « Produit » à « Commande » 
+    • Lien de « Produit » à « Fournisseur »
+    • Lien de « Produit » à « Commande »
+    • Lien de « Produit » à « Client »
+    • Lien de « Commercial » à « Client »
+      
 
 
 
 Ordre de création des tables 
 
 
-Fournisseurs > Catégorie > Sous catégorie > Produit > Commerciaux > Clients > Commandes
+    • Fournisseurs > Catégorie > Sous catégorie > Produit > Commerciaux > Clients > Commandes
