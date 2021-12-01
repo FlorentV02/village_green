@@ -14,17 +14,17 @@ Liste des données
     • Prix de vente HTT
     • Commercial 
     • Clients particuliers
-    • Clients professionnels
-    • Paiement 
-    • Noté le paiement en différé ou non
-    • Facture
+    • Clients professionnels 
+    • Noté le paiement en différé ou non 
     • Commande
     • Référence Client
     • Réduction prix 
 
 Table
+
 	 
-	Client 
+
+	Clients 
 
     • Nom (VARCHAR 25 NOT NUL)
     • Prénom (VARCHAR 25 NOT NUL)
@@ -33,7 +33,7 @@ Table
     • Coéficients (DEC 3,2 NOT NUL)
 
 
-	Produit 
+	Produits 
 
     • Nom (VARCHAR 25 NOT NUL)
     • Photo (VARCHAR 100 NOT NUL)
@@ -46,6 +46,9 @@ Table
     • Libellé long (TEXT)
     • Validité (LOGIGAL NOT NUL)
  
+
+	
+
 
 	Fournisseurs 
 
@@ -75,11 +78,17 @@ Table
 	Commandes 
 
     • Adresse de facturation (VARCHAR 80 NOT NUL)
+    • Data de livraison (DATE)
+    • Référence (VARCHAR 50)
     • Adresse de livraison (VARCHAR 80 NOT NUL)
-    • Règlement (BOOLEAN NOT NUL)
     • Suivi de commande (VARCHAR 25 NOT NUL)
- 
 
+	Facturation 
+
+    • Référence (VARCHAR 80 NOT NUL)
+    • Réglement (LOGICAL	)
+      
+ 
  Relation 
 
 
@@ -87,14 +96,15 @@ Table
     • Lien de «Produits » à « Catégories »
     • Lien de « Produits » à « Commandes » 
     • Lien de « Produits » à « Fournisseurs »
-    • Lien de « Produits » à « Clients »
-    • Lien de «Catégorie» à « Sous-Catégories » 
+    • Lien de « Commandes » à « Facturation »
+    • Lien de « Catégorie » à « Sous-Catégories » 
     • Lien de « Commerciaux » à « Clients »
     • Lien de « Clients » à « Commandes »
       
-      
+
       
 Ordre de création des tables 
 
 
-    • Fournisseurs > Catégorie > Sous catégorie > Produit > Commerciaux > Clients > Commandes
+    • Fournisseurs > Catégorie > Sous catégorie > Produit > Commerciaux > Clients >  ...
+    •  … > Commande > Facturation
