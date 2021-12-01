@@ -47,7 +47,7 @@ Table
     • Validité (LOGIGAL NOT NUL)
  
 
-	Fournisseur 
+	Fournisseurs 
 
     • Nom (VARCHAR 25 NOT NUL)
     • Référence (VARCHAR 50 NOT NUL UNIQUE)
@@ -55,50 +55,45 @@ Table
  
 
 
-	Catégorie 
+	Catégories 
 
     • Nom (VARCHAR 25 NOT NUL)
 
 
-	Sous-Catégorie 
+	Sous-Catégories 
 
     • Nom (VARCHAR 25 NOT NUL)
 
 
-	Commercial 
+	Commerciaux
 
     • Nom (VARCHAR 25 NOT NUL)
     • Prénom (VARCHAR 25 NOT NUL)
     • Type de client (VARCHAR 25 NOT NUL)
  
 
-	Commande 
+	Commandes 
 
-    • Date (DATATIME NOT NUL)
-    • Référence (VARCHAR 50 NOT NUL UNIQUE)
     • Adresse de facturation (VARCHAR 80 NOT NUL)
     • Adresse de livraison (VARCHAR 80 NOT NUL)
     • Règlement (BOOLEAN NOT NUL)
     • Suivi de commande (VARCHAR 25 NOT NUL)
  
 
-
-
  Relation 
 
 
 
-    • Lien de «Produit » à « Catégorie »
-    • Lien de « Produit » à « Sous-Catégorie » 
-    • Lien de « Produit » à « Commande » 
-    • Lien de « Produit » à « Fournisseur »
-    • Lien de « Produit » à « Commande »
-    • Lien de « Produit » à « Client »
-    • Lien de « Commercial » à « Client »
+    • Lien de «Produits » à « Catégories »
+    • Lien de « Produits » à « Commandes » 
+    • Lien de « Produits » à « Fournisseurs »
+    • Lien de « Produits » à « Clients »
+    • Lien de «Catégorie» à « Sous-Catégories » 
+    • Lien de « Commerciaux » à « Clients »
+    • Lien de « Clients » à « Commandes »
       
-
-
-
+      
+      
 Ordre de création des tables 
 
 
