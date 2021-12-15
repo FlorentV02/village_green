@@ -60,6 +60,14 @@ WHERE Supérieur.emp_nom = 'Stout' AND Supérieur.emp_prenom = 'Rahim';
 
 -- 6. Afficher les employés ayant plus de 5 ans d'ancienneté./
 
+-- On affiche le nom, prenom, date d'entrée de l'employe
+-- On applique la condition, si la date d'entrée de l'employé à 1825 (5ans) de différence par rapport à la date d'aujourd'hui, alors le résultat est
+-- afficher
+
+SELECT emp_nom, emp_prenom, emp_date_entree
+FROM Employe
+WHERE DATEDIFF(day, emp_date_entree, CONVERT (date,GETDATE()) ) > 1825
+
 
 -- 7. Afficher les employés licenciés depuis plus de 3 ans
 
@@ -121,6 +129,8 @@ JOIN pays ON pay_id = fou_pay_id
 JOIN Produit ON pro_fou_id = fou_id
 JOIN Categorie ON cat_id = pro_cat_id
 WHERE pay_libelle ='Chili';
+
+
 
 -- JOIN Categorie ON pro_fou_id = fou_id
 -- JOIN pays ON cat_id = pro_cat_id
