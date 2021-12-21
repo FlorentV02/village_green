@@ -1,3 +1,7 @@
+---------------------------------------------UPDATE emp_date_naissance-----------------------------------------------------------------
+
+
+
 UPDATE Employe SET emp_date_naissance = '1973-02-04' WHERE emp_id = 1;
 UPDATE Employe SET emp_date_naissance = '2000-06-08' WHERE emp_id = 2;
 UPDATE Employe SET emp_date_naissance = '1966-08-12' WHERE emp_id = 3;

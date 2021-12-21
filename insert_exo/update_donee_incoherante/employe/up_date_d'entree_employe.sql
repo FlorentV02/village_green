@@ -1,3 +1,5 @@
+---------------------------------------------------UPDATE TABLE Employe ----------------------------------------------------------------
+
 /* 
 
 Commande pour vérifier si la date de sortie est bien postérieur à la date d'entrée. 
@@ -5,7 +7,7 @@ Le résultat qui en resort doit être négatif.
 
 */
 
--- UPDATE DATE d'entrée des employes quand la date d'entrée est postérieur à la date de sortie
+----------- UPDATE DATE d'entrée des employes quand la date d'entrée est postérieur à la date de sortie --------------------
 
 UPDATE Employe SET emp_date_entree = '2010-02-09' WHERE emp_id = 60;
 UPDATE Employe SET emp_date_entree = '2009-11-10' WHERE emp_id = 57;
@@ -56,14 +58,14 @@ UPDATE Employe SET emp_date_entree = '2014-01-12' WHERE emp_id = 38;
 UPDATE Employe SET emp_date_entree = '2012-11-25' WHERE emp_id = 3;
 UPDATE Employe SET emp_date_entree = '2019-07-10' WHERE emp_id = 63;
 
--- Rajout de quelques dates de sorties = NULL pour plus de cohérences
+--------------------- Rajout de quelques dates de sorties = NULL pour plus de cohérences ---------------------------
 
--- Modification de la colonne emp_date_sortie pour la rendre possibilement NULL
+-- Modification de la colonne emp_date_sortie pour la rendre possibilement NULL --
 
 ALTER TABLE Employe 
 ALTER COLUMN emp_date_sortie DATE NULL;
 
--- Rajout des UPDATES
+-- Rajout des UPDATES --
 
 UPDATE Employe SET emp_date_sortie = NULL WHERE emp_id = 60;
 UPDATE Employe SET emp_date_sortie = NULL WHERE emp_id = 11;
@@ -94,6 +96,4 @@ UPDATE Employe SET emp_date_sortie = NULL WHERE emp_id = 86;
 UPDATE Employe SET emp_date_sortie = NULL WHERE emp_id = 50;
 UPDATE Employe SET emp_date_sortie = NULL WHERE emp_id = 38;
 UPDATE Employe SET emp_date_sortie = NULL WHERE emp_id = 3;
-
-
 
