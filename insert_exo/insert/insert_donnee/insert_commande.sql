@@ -1,0 +1,120 @@
+INSERT INTO Commande (com_ref,com_remise,com_mode_paiement,com_date_reglement,com_date_paiem
+VALUES
+  ('CXN41MMK7QP',2,'pede. Cum sociis natoque','2016-04-03','2013-01-02','No',53),
+  ('WNB24ANN8AD',3,'quis, pede. Suspendisse dui.','2016-02-28','2022-07-11','No',15),
+  ('IHH44TDZ3MR',7,'Morbi neque tellus, imperdiet','2013-06-23','2017-10-14','Yes',26),
+  ('YQN88LSX5NW',7,'dictum mi, ac mattis','2010-12-08','2021-05-14','No',18),
+  ('FXI62YLC3BQ',7,'pharetra. Nam ac nulla.','2009-12-05','2016-06-10','Yes',2),
+  ('GHU25JNC8HM',8,'Aenean gravida nunc sed','2014-02-27','2022-04-18','Yes',63),
+  ('VZP78NCB3JI',9,'nascetur ridiculus mus. Proin','2017-04-09','2022-05-28','No',40),
+  ('XRE24OPS2VL',3,'rhoncus id, mollis nec,','2011-02-02','2020-09-24','No',8),
+  ('QYR04PHK3MP',1,'massa. Vestibulum accumsan neque','2015-12-05','2009-04-18','Yes',83),
+  ('KGE31STF4CS',6,'eget, ipsum. Donec sollicitudin','2015-01-04','2017-10-11','No',92);
+INSERT INTO Commande (com_ref,com_remise,com_mode_paiement,com_date_reglement,com_date_paiem
+VALUES
+  ('FNG17MJW4PT',9,'iaculis odio. Nam interdum','2012-06-26','2022-09-10','No',98),
+  ('MLD15SFL6BN',4,'sit amet luctus vulputate,','2019-02-12','2010-12-28','No',10),
+  ('NEI95PEI6UK',1,'tempor diam dictum sapien.','2013-01-28','2011-04-10','No',10),
+  ('TVY67NJS7MW',4,'montes, nascetur ridiculus mus.','2011-12-31','2017-05-18','Yes',35),
+  ('ELY46VPI8AJ',2,'dolor vitae dolor. Donec','2015-04-21','2011-08-21','No',68),
+  ('WDG77VBM6CL',8,'mollis non, cursus non,','2014-04-22','2014-05-22','No',72),
+  ('NWL16KFY9GJ',3,'lacus. Quisque purus sapien,','2010-08-14','2011-03-05','Yes',76),
+  ('UON74SWT0QO',9,'enim. Etiam gravida molestie','2014-02-20','2016-05-06','Yes',5),
+  ('COL94EQR6PS',5,'lectus quis massa. Mauris','2013-10-29','2019-07-06','Yes',98),
+  ('GUD26QPJ8KH',9,'mus. Proin vel nisl.','2013-07-08','2015-09-09','Yes',45);
+INSERT INTO Commande (com_ref,com_remise,com_mode_paiement,com_date_reglement,com_date_paiem
+VALUES
+  ('SYU27GME1MD',2,'diam. Sed diam lorem,','2021-05-31','2019-08-22','Yes',26),
+  ('JUO62YGW3NU',5,'sed orci lobortis augue','2010-12-09','2019-06-05','Yes',9),
+  ('JUP57BHM1RG',8,'Duis cursus, diam at','2021-04-17','2010-03-27','Yes',46),
+  ('MJK98OOQ1DH',2,'laoreet lectus quis massa.','2010-02-21','2010-04-20','No',1),
+  ('QWM32YBP4WC',8,'et tristique pellentesque, tellus','2019-08-15','2013-09-07','No',71),
+  ('KOQ77DJF1YK',1,'consectetuer ipsum nunc id','2014-10-15','2018-05-19','Yes',91),
+  ('QJO40JUK0UC',0,'In ornare sagittis felis.','2021-11-09','2016-02-24','Yes',91),
+  ('KNU89YTM8FF',1,'orci. Phasellus dapibus quam','2011-05-10','2009-06-09','Yes',93),
+  ('LDF14JBT7LU',5,'orci lobortis augue scelerisque','2019-12-09','2018-05-05','Yes',97),
+  ('SBD73SIT4RT',6,'lectus ante dictum mi,','2016-09-05','2011-05-08','No',4);
+INSERT INTO Commande (com_ref,com_remise,com_mode_paiement,com_date_reglement,com_date_paiem
+VALUES
+  ('BDJ35GOR6KR',4,'euismod enim. Etiam gravida','2012-10-07','2018-02-19','Yes',9),
+  ('FQO43XLB3ZI',7,'parturient montes, nascetur ridiculus','2014-11-11','2022-05-31','Yes',7
+  ('BBJ45SSX6CU',1,'Nulla facilisi. Sed neque.','2012-11-14','2015-02-01','No',32),
+  ('YKJ86GBB8TD',9,'est ac mattis semper,','2011-01-26','2016-02-12','Yes',48),
+  ('PFW59JHQ6EC',1,'adipiscing lacus. Ut nec','2015-05-06','2012-09-19','No',24),
+  ('ESI62WVW4EY',5,'felis. Donec tempor, est','2022-06-21','2020-05-21','No',13),
+  ('YPP73TIF2KI',6,'ante blandit viverra. Donec','2017-08-27','2013-12-17','No',28),
+  ('FHI44YWP1HN',3,'dis parturient montes, nascetur','2010-11-14','2020-11-17','No',25),
+  ('BMJ54ZXC3PH',8,'Aenean eget magna. Suspendisse','2020-03-21','2019-02-28','Yes',9),
+  ('OGF69QQW5HT',2,'mattis. Cras eget nisi','2022-01-29','2012-10-25','No',74);
+INSERT INTO Commande (com_ref,com_remise,com_mode_paiement,com_date_reglement,com_date_paiem
+VALUES
+  ('XES78FOH6PW',6,'Mauris vel turpis. Aliquam','2009-04-29','2022-05-11','No',16),
+  ('STB33QRR5QX',6,'Donec est. Nunc ullamcorper,','2013-01-11','2013-08-02','No',27),
+  ('ZSJ21CHY2NI',9,'massa. Integer vitae nibh.','2016-02-17','2022-12-06','Yes',94),
+  ('XBP08HLD6HJ',2,'mollis non, cursus non,','2015-09-29','2014-10-03','Yes',47),
+  ('CMW85JGX7JB',6,'lacus. Nulla tincidunt, neque','2021-03-25','2009-07-30','Yes',85),
+  ('YMR12IOT1DK',7,'elit. Curabitur sed tortor.','2012-02-15','2015-11-15','No',98),
+  ('FRU31FLB6ME',4,'a feugiat tellus lorem','2021-12-03','2012-09-10','Yes',85),
+  ('AVI85GCC8RE',3,'Nulla facilisi. Sed neque.','2014-03-22','2011-09-01','No',81),
+  ('YOT15VGE3RY',7,'egestas a, scelerisque sed,','2018-03-25','2009-11-03','No',100),
+  ('JSQ24OBF8GH',5,'nunc interdum feugiat. Sed','2022-02-05','2020-04-22','No',47);
+INSERT INTO Commande (com_ref,com_remise,com_mode_paiement,com_date_reglement,com_date_paiem
+VALUES
+  ('UFC96VSJ2AM',1,'purus gravida sagittis. Duis','2011-06-25','2021-01-14','No',88),
+  ('YEY51ZTC6BD',4,'vulputate, risus a ultricies','2014-10-20','2013-10-20','Yes',80),
+  ('QTC76ZIQ3FP',0,'venenatis vel, faucibus id,','2019-11-30','2009-05-15','Yes',47),
+  ('SDY35DIQ4LS',7,'eu, odio. Phasellus at','2014-05-30','2020-07-25','No',9),
+  ('XBG52BDE1GN',7,'enim. Etiam gravida molestie','2011-09-21','2017-05-08','No',89),
+  ('AOO11FLZ2OW',4,'Aliquam adipiscing lobortis risus.','2020-07-09','2012-09-10','No',66),
+  ('FFE77FHW8OR',2,'vel sapien imperdiet ornare.','2020-10-03','2011-11-26','No',94),
+  ('YYA20WJS8CK',7,'neque. Morbi quis urna.','2018-05-15','2014-02-19','No',91),
+  ('FGW74BLP4NJ',6,'nunc sed libero. Proin','2019-05-08','2014-10-26','Yes',63),
+  ('XIT54BOS2EW',7,'Suspendisse non leo. Vivamus','2017-11-27','2016-04-12','Yes',9);
+INSERT INTO Commande (com_ref,com_remise,com_mode_paiement,com_date_reglement,com_date_paiem
+VALUES
+  ('IXU60FTV2KT',6,'primis in faucibus orci','2012-04-01','2012-06-23','No',99),
+  ('SNJ97LBY7NY',5,'dui nec urna suscipit','2010-02-23','2019-04-07','Yes',9),
+  ('LRC51EVI1PY',5,'Integer id magna et','2013-04-28','2017-08-19','Yes',46),
+  ('NFT13KZT7LV',2,'Duis risus odio, auctor','2011-09-16','2015-10-23','No',33),
+  ('XBV12CUO4VM',6,'convallis, ante lectus convallis','2021-12-15','2009-06-27','Yes',74),
+  ('ICR33QHT2GR',6,'feugiat placerat velit. Quisque','2015-12-10','2022-12-20','No',44),
+  ('NBP25XBH6CN',6,'arcu. Sed et libero.','2009-10-02','2018-02-19','No',86),
+  ('FGQ83USJ9GE',10,'dolor. Nulla semper tellus','2019-10-13','2010-10-15','No',49),
+  ('NNA05RDH4MR',5,'Etiam gravida molestie arcu.','2016-12-11','2012-02-04','No',2),
+  ('CEG75PUK3SF',4,'eros nec tellus. Nunc','2015-04-12','2021-03-24','No',61);
+INSERT INTO Commande (com_ref,com_remise,com_mode_paiement,com_date_reglement,com_date_paiem
+VALUES
+  ('BAL00NXU8JZ',5,'Vivamus non lorem vitae','2015-06-25','2012-03-28','Yes',79),
+  ('JGX33VVR9OL',8,'eu enim. Etiam imperdiet','2009-11-16','2020-11-09','No',12),
+  ('QVW04JYH5YI',7,'Nullam enim. Sed nulla','2021-08-30','2017-02-08','Yes',69),
+  ('NUQ67HAM3EJ',1,'mollis lectus pede et','2019-03-29','2018-02-12','Yes',72),
+  ('FRF52WMN1KY',6,'lacus. Aliquam rutrum lorem','2012-02-12','2017-11-05','No',54),
+  ('IJE40EVM8YG',8,'blandit congue. In scelerisque','2022-07-12','2016-12-25','No',85),
+  ('MTV37PWM1EC',4,'Morbi neque tellus, imperdiet','2013-05-20','2011-07-28','Yes',77),
+  ('XEU65EOV8MP',2,'eu tellus eu augue','2021-01-14','2017-12-11','Yes',63),
+  ('GYB32MAQ1HB',9,'in consectetuer ipsum nunc','2020-03-09','2016-02-08','Yes',94),
+  ('PMS95HRE8UX',2,'ac mattis semper, dui','2010-01-02','2022-01-01','No',97);
+INSERT INTO Commande (com_ref,com_remise,com_mode_paiement,com_date_reglement,com_date_paiem
+VALUES
+  ('GHZ36ZHU5JO',0,'ridiculus mus. Proin vel','2013-12-04','2009-12-03','No',92),
+  ('TUZ16ZOR7EQ',8,'mauris eu elit. Nulla','2016-11-18','2013-12-06','No',6),
+  ('BWE94FVA5UP',9,'ac mi eleifend egestas.','2014-11-05','2017-07-31','No',70),
+  ('SVM85NJE8VL',2,'ante dictum mi, ac','2020-10-21','2011-04-16','No',18),
+  ('SCM16PLF4XX',0,'arcu. Sed eu nibh','2011-08-30','2021-03-27','No',47),
+  ('IQI82LVM4CD',4,'vitae, erat. Vivamus nisi.','2021-08-15','2017-07-18','No',7),
+  ('ZPP45IZQ6NW',9,'risus. Donec egestas. Aliquam','2018-03-25','2015-03-21','Yes',56),
+  ('QIV74QDL1GJ',6,'Sed auctor odio a','2009-11-22','2009-03-12','Yes',34),
+  ('MRG41UYU7OQ',4,'Proin vel arcu eu','2010-06-29','2014-09-26','No',17),
+  ('RUW23KFS2QX',2,'Cras sed leo. Cras','2018-09-06','2017-02-26','No',20);
+INSERT INTO Commande (com_ref,com_remise,com_mode_paiement,com_date_reglement,com_date_paiem
+VALUES
+  ('YRS54XZL4DG',5,'at, egestas a, scelerisque','2017-03-11','2018-09-10','Yes',61),
+  ('GQK63CKU3EX',6,'at fringilla purus mauris','2013-08-13','2019-12-28','No',20),
+  ('ADO81XQJ0FU',5,'est, vitae sodales nisi','2009-04-22','2022-08-17','Yes',17),
+  ('DYY97TRG8NL',3,'amet metus. Aliquam erat','2020-06-30','2018-07-18','No',61),
+  ('WYI86RMP0PS',2,'ipsum nunc id enim.','2014-06-10','2015-08-30','No',13),
+  ('MUM74SGE3LQ',8,'ut mi. Duis risus','2022-02-28','2019-01-10','Yes',83),
+  ('JRP75IPU9LJ',2,'In mi pede, nonummy','2014-04-27','2014-04-21','No',31),
+  ('UEG79ELW1EQ',7,'molestie tellus. Aenean egestas','2019-11-09','2016-01-07','Yes',65),
+  ('GEO43TII7HK',4,'magna. Nam ligula elit,','2022-06-15','2009-03-06','Yes',26),
+  ('PVV14GYP5NE',8,'nec enim. Nunc ut','2011-09-25','2013-12-07','No',13);

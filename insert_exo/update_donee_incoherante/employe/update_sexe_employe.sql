@@ -1,3 +1,5 @@
+USE Village_green_final;
+GO
 
 UPDATE Employe SET emp_sexe = 'M' WHERE emp_id = 1;
 UPDATE Employe SET emp_sexe = 'M' WHERE emp_id = 2;
@@ -100,5 +102,7 @@ UPDATE Employe SET emp_sexe = 'M' WHERE emp_id = 98;
 UPDATE Employe SET emp_sexe = 'F' WHERE emp_id = 99;
 UPDATE Employe SET emp_sexe = 'F' WHERE emp_id = 100;
 
+USE master;
+GO
 
 
